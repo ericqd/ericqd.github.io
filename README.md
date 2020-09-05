@@ -1,3 +1,2 @@
 # ericqd.github.io
-Personal Website
-Website at https://ericqd.github.io/
+Personal Website at https://ericqd.github.io/
