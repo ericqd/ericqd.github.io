@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.console {
+  margin: 40x;
+  margin-top: 20px;
+  padding: 30px;
+  overflow-y: auto;
+  line-height: 22px;
+  height: 390px;
+  width: 550px;
+  font-size: 90%;
+  font-family: Monaco, monospace;
+  border-top: 20 px solid;
+  border-radius: 4px;
+  background-color: #2a2d34;
+  box-shadow: 12px 12px 1px #d7d3e7;
+}
+
+.firstColor {
+  color: #ac78c2;
+}
+.secondColor {
+  color: #b5bd68;
+}
+.thirdColor {
+  color: #5888ca;
+}
+.fourthColor {
+  color: #f0c674;
+}
+.fifthColor {
+  color: #c5c8c6;
+}
