@@ -1,14 +1,14 @@
 .about-container {
   display: flex;
-  height: 100vh;
-  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  min-height: 100vh;
+  animation: transitionIn 0.75s;
 }
 
-.console {
+#console {
   margin: 40x;
   margin-top: 20px;
   padding: 30px;
@@ -23,7 +23,15 @@
   background-color: #2a2d34;
   box-shadow: 12px 12px 1px #d7d3e7;
 }
-
+#console ul {
+  display: block;
+  list-style-type: circle;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
 .firstColor {
   color: #ac78c2;
 }
@@ -38,4 +46,14 @@
 }
 .fifthColor {
   color: #c5c8c6;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }

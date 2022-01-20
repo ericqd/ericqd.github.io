@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="about-container">
         <h1>Hello World</h1>
-        <div className="console">
+        <div id="console">
           <span className="firstColor">package</span>{" "}
           <span class="secondColor">aboutMe</span>
           <span className="fifthColor">;</span>
@@ -15,7 +15,7 @@ export default function About() {
           <span className="thirdColor">class</span>{" "}
           <span className="secondColor">Eric</span>{" "}
           <span className="firstColor">extends</span>{" "}
-          <span className="secondColor">human</span>{" "}
+          <span className="secondColor">person</span>{" "}
           <span className="fifthColor">&#123;</span>
           <ul>
             <span className="firstColor">public</span>{" "}
@@ -38,9 +38,7 @@ export default function About() {
               <span className="thirdColor">String</span>{" "}
               <span className="fifthColor">college</span>{" "}
               <span className="fifthColor">=</span>{" "}
-              <span className="fourthColor">
-                "Calfornia State University, Long Beach"
-              </span>
+              <span className="fourthColor">"CSULB"</span>
               <span className="fifthColor">;</span>
               <br></br>
               <span className="thirdColor">int</span>{" "}

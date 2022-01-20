@@ -6,4 +6,87 @@
   align-items: center;
   justify-content: center;
   color: white;
+  margin-top: 50px;
+  animation: transitionIn 1s;
+}
+.education-header {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid white;
+}
+.experience-header {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid white;
+}
+.subheading {
+  font-size: 1rem;
+}
+.education {
+  margin-top: 10px;
+}
+.work-experience {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.work-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.right {
+  float: right;
+}
+
+.chipotle-logo,
+.csulb-logo {
+  margin-left: -95px;
+  width: 65px;
+  height: 65px;
+  float: left;
+}
+
+.skill {
+  display: inline-block;
+  border: 1px solid;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  font-size: 11px;
+  padding: 7px 18px;
+  border-radius: 8px;
+  line-height: 1.33333em;
+  margin-top: 0.8em;
+}
+.work-section ul {
+  display: block;
+  list-style-type: circle;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .right {
+    display: none;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
