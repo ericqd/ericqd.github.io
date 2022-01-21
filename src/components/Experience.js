@@ -26,7 +26,8 @@ export default function Experience() {
             <ul>
               <ul>
                 <li>Introduction to Programming</li>
-                <li>Data Structures &amp; Algorithms </li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
                 <li>Object Oriented Programming</li>
                 <li>Discrete Structures</li>
                 <li>Operating Systems</li>
@@ -76,9 +77,9 @@ export default function Experience() {
             <span>
               Joined a team of product owners and software engineers at Chipotle
               where I worked in an agile environment and adhered to the Scrum
-              model. I worked with the engineers on the team on a new feature
-              for an internal web application. Also, fixed numerous defects on
-              the Chipotle catering website.
+              methodology. I worked with the engineers on the team on a new
+              feature for an internal web application. I also fixed numerous
+              defects on the Chipotle catering website.
             </span>
             <br></br>
             <br></br>

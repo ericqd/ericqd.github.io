@@ -18,9 +18,27 @@ export default function About() {
           </div>
           <div className="links-container">
             <div className="links">
-              <AiOutlineMail size={50} className="link-1" />
-              <FaLinkedinIn size={50} className="link-2" />
-              <FaGithub size={50} className="link-3" />
+              <a className="link-1" href="mailto:eric_dao@hotmail.com">
+                <AiOutlineMail
+                  size={50}
+                  className="link-icon"
+                  target="_blank"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ericqd/"
+                className="link-2"
+                target="_blank"
+              >
+                <FaLinkedinIn size={50} className="link-icon" />
+              </a>
+              <a
+                href="https://github.com/ericqd"
+                className="link-3 "
+                target="_blank"
+              >
+                <FaGithub size={50} className="link-icon" />
+              </a>
             </div>
           </div>
         </div>
