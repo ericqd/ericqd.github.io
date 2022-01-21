@@ -1,0 +1,92 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* height: 100vh;
+  width: 100vw; */
+  color: white;
+  animation: transitionIn 0.75s;
+}
+.projects-header {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  position: relative;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  border-radius: 6px;
+  margin: 80px;
+}
+.project-item img {
+  width: 350px;
+  height: 350px;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(233, 233, 230, 0.9);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+.project-description p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.project-description b {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.img-description {
+  transition: 0.5s;
+  color: #2a2d34;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.img-description i {
+  font-size: 12px;
+}
+.project-item:hover .project-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project-item img {
+  padding: 25px;
+}
+@media screen and (max-width: 768px) {
+  .projects-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
