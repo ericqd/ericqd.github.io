@@ -41,12 +41,12 @@ export default function Navbar() {
                 ETC
               </Link>{" "}
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               {" "}
               <Link to="/contact" className="link">
                 CONTACT
               </Link>{" "}
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -55,7 +55,7 @@ export default function Navbar() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/experience" element={<Experience />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/etc" element={<Etc />}></Route>
+        <Route path="/etc" element={<Etc />}></Route>{" "}
       </Routes>
     </>
   );

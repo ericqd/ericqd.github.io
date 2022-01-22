@@ -15,7 +15,7 @@ export default function Experience() {
             <b>California State University of Long Beach</b>{" "}
             <span className="right">2018-Present</span>
             <br></br>
-            <b className="subheading">B.S. Computer Science</b>{" "}
+            <b className="subheading">Computer Science, B.S.</b>{" "}
             <span className="right">Long Beach, CA</span>
             <br></br>
             <br></br>
@@ -46,7 +46,6 @@ export default function Experience() {
               </ul>
             </ul>
             <br></br>
-            <span class="skill">JavaScript</span>{" "}
             <span class="skill">Python</span> <span class="skill">Java</span>{" "}
             <span class="skill">C/C++</span> <span class="skill">SQL</span>{" "}
             <span class="skill">Git</span>
