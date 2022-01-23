@@ -50,7 +50,8 @@ export default function About() {
               <span className="fifthColor">;</span>
               <br></br>
               <span className="thirdColor">String[]</span>{" "}
-              <span className="fifthColor">interests</span> <span>=</span>{" "}
+              <span className="fifthColor">interests</span>{" "}
+              <span className="fifthColor">=</span>{" "}
               <span className="firstColor">new</span>{" "}
               <span className="thirdColor">String[]</span>{" "}
               <span className="fifthColor">&#123;</span>

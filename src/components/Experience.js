@@ -78,13 +78,15 @@ export default function Experience() {
               where I worked in an agile environment and adhered to the Scrum
               methodology. I worked with the engineers on the team on a new
               feature for an internal web application. I also fixed numerous
-              defects on the Chipotle catering website.
+              defects on the Chipotle catering website and wrote detailed unit
+              tests to ensure code quality.
             </span>
             <br></br>
             <br></br>
             <br></br>
             <span class="skill">JavaScript</span>{" "}
-            <span class="skill">TypeScript</span> <span class="skill">CSS</span>{" "}
+            <span class="skill">TypeScript</span>{" "}
+            <span class="skill">HTML</span> <span class="skill">CSS</span>{" "}
             <span class="skill">VueJS</span> <span class="skill">MochaJS</span>{" "}
             <span class="skill">ChaiJS</span> <span class="skill">Git</span>
           </p>
