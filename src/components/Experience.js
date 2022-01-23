@@ -34,6 +34,8 @@ export default function Experience() {
                 <li>Principles of Software Engineering</li>
                 <li>Database Fundamentals</li>
                 <li>Networks and Distributed Computing</li>
+                <li>Computer Architecture</li>
+                <li>Introduction to Computer Security</li>
               </ul>
             </ul>
             <br></br>
