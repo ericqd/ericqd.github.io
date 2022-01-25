@@ -11,7 +11,14 @@
   display: flex;
   flex-wrap: nowrap;
 }
+.about-header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+#console span {
+  font-family: Monaco, monospace;
+}
 #console {
   margin: 40x;
   margin-top: 20px;
@@ -21,7 +28,6 @@
   height: 390px;
   width: 550px;
   font-size: 90%;
-  font-family: Monaco, monospace;
   border-top: 20 px solid;
   border-radius: 4px;
   background-color: #2a2d34;

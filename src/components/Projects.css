@@ -17,6 +17,10 @@
   align-items: center;
   height: 100px;
 }
+.projects-header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .row {
   display: flex;
   justify-content: center;

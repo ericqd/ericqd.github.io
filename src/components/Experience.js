@@ -5,7 +5,7 @@ export default function Experience() {
     <div className="experience-container">
       <div className="work-section">
         <div className="education-header">
-          <h1>Education</h1>
+          <h2>Education</h2>
         </div>
         <div className="education">
           <p>
@@ -57,7 +57,7 @@ export default function Experience() {
           </p>
         </div>
         <div className="experience-header">
-          <h1>Work Experience</h1>
+          <h2>Work Experience</h2>
         </div>
         <div className="work-experience">
           <p>

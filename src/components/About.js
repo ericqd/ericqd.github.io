@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="about-container">
         <div className="about-header">
-          <h1>Hello World</h1>
+          <h2>HELLO WORLD</h2>
         </div>
         <div id="console">
           <span className="firstColor">package</span>{" "}

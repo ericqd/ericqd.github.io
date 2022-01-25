@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <div className="projects-header">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
       </div>
       <div className="projects-container">
         <div className="row">

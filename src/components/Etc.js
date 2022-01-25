@@ -6,7 +6,7 @@ export default function Etc() {
     <>
       <div className="etc-container">
         <div className="skills-header">
-          <h1>Skills</h1>
+          <h2>Skills</h2>
         </div>
         <div className="skills-section">
           <ul className="skills-icons">
@@ -56,7 +56,7 @@ export default function Etc() {
           </ul>
         </div>
         <div className="listen-header">
-          <h1>Currently Listening</h1>
+          <h2>Currently Listening</h2>
         </div>
         <div className="row">
           <div className="listen-item">
