@@ -11,7 +11,7 @@ export default function About() {
             <h1>ERIC DAO</h1>
             <p>
               <span class="text_1">
-                Student at Calfornia State University of Long Beach
+                Student at California State University of Long Beach
               </span>
               <span class="text_2">Aspiring Full Stack Developer</span>
             </p>
